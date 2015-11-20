@@ -108,6 +108,12 @@
 			treemenu01=tmptree;
 			menuarray[divid]= tmptree;
 		}
+      
+      function pageScroll() {
+         window.scrollTo(0,top);
+         scrolldelay = setTimeout('pageScroll()', 200);
+      }
+
       window.onload = function(){
          var treemenuobj = document.getElementById('treemenu01');
          if (treemenuobj)
@@ -115,6 +121,7 @@
             if (document.getElementById('treemenu01').visible)
                document.getElementById('treemenu01').focus();
          }
+         pageScroll();
       }
 </script>
 <script type="text/javascript" src="../common/scripts/onlinecheck.js"></script>
@@ -246,6 +253,9 @@
 	
 	<h3>Script Source Code</h3>
 	<p><iframe id="srccode" name="srccode" width=100% height="500" frameborder="0" scrolling="auto" src="skypehistory.txt" seamless sandbox=""></iframe></p>
+
+	<h3>Change Log</h3>
+	<p><iframe id="changelog" name="changelog" width=100% height="500" frameborder="0" scrolling="auto" src="readme.txt" seamless sandbox=""></iframe></p>
 			
 </div><!--End Tab3-->
       				
