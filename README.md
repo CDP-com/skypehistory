@@ -8,6 +8,7 @@ Add any notes you may find pertinent
 
 Changelog
 ----
+12/11/2015, smmadara, Modified main.html to reflect new app template
 11/20/2015, mstiles, Removed call to scroll to top on load in main.html's
 11/20/2015, mstiles, Scroll to top onload
 11/11/2015, mstiles, added code to skypehistorylib.js to handle 32 bit call on 64 bit OS
